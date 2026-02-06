@@ -1,0 +1,4 @@
+hour,day_of_week,historical_price,energy_demand
+10,1,50.0,1000
+15,5,70.0,2000
+23,6,30.0,500
