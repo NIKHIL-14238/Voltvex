@@ -9,6 +9,7 @@
 [![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-Sepolia-green)]()  
 
 VoltVex is a Web3 decentralized energy trading platform that enables producers and consumers to trade electricity securely using blockchain technology.
+Live Link - https://voltvex.vercel.app/
 
 -------------------------------------------------------------
 
