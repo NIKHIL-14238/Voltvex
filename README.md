@@ -1,98 +1,106 @@
-# AptosVerse - Blockchain Gaming Platform
+========================= README CONTENT =========================
+
+# ⚡ VoltVex – Decentralized Energy Trading Platform  
+
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)  
+[![Built with Vite](https://img.shields.io/badge/Built%20with-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)  
+[![Blockchain Web3](https://img.shields.io/badge/Web3-Blockchain-blueviolet)]()  
+[![Machine Learning](https://img.shields.io/badge/AI-Machine%20Learning-orange)]()  
+[![Smart Contracts](https://img.shields.io/badge/Smart%20Contracts-Sepolia-green)]()  
+
+VoltVex is a Web3 decentralized energy trading platform that enables producers and consumers to trade electricity securely using blockchain technology.
+
+-------------------------------------------------------------
 
 ## 📌 Overview
-AptosVerse is a blockchain-integrated gaming platform built on **Aptos**. The platform includes:
-- **On-Chain Player Progress Tracking**
-- **Mission System for On-Chain Quests**
-- **PvP Coding Battles (Gas Optimization & Debugging Challenges)**
-- **NFT Rewards (Badges & Achievements)**
-- **On-Chain Economy with APT Coins & Marketplace**
 
-This repository contains the **Move smart contracts** and **TypeScript SDK integration** to interact with Aptos blockchain.
+VoltVex allows users to:
+
+- Sell excess electricity  
+- Purchase renewable energy  
+- Execute transparent blockchain transactions  
+- Predict energy prices using Machine Learning  
+
+-------------------------------------------------------------
 
 ## 🚀 Features
-- **Immutable Player Profiles** (XP, achievements, completed quests)
-- **Smart contract-driven quests** with on-chain validation
-- **PvP challenges rewarding gas-efficient Move code**
-- **NFT-based achievements using Aptos Token Standards**
-- **In-game APT Coin economy & marketplace**
-- **Petra, Martian Wallet Integration for Transactions**
 
----
+- ⚡ Peer-to-Peer Energy Trading  
+- 📊 Producer & Consumer Dashboards  
+- 🔐 Blockchain Verified Transactions  
+- 🤖 AI Energy Price Prediction  
+- 💰 Smart Contract Payment System  
+- 👛 Wallet Integration  
+- 🌐 Real-Time Energy Marketplace  
 
-## 🛠 Installation & Setup
+-------------------------------------------------------------
 
-### **1️⃣ Prerequisites**
-- **Node.js & npm** (Latest LTS)
-- **Aptos CLI** ([Install Guide](https://aptos.dev/cli-tools/aptos-cli/install-cli))
-- **Git**
+## 🛠️ Tech Stack
 
-### **2️⃣ Clone the Repository**
-```bash
- git clone https://github.com/YOUR_USERNAME/AptosVerse.git
- cd AptosVerse
-```
+Frontend:
+- React
+- Vite
+- CSS
 
-### **3️⃣ Install Dependencies**
-```bash
+Blockchain:
+- Smart Contracts
+- Web3 Integration
+- Sepolia Testnet
+
+Backend / AI:
+- Python
+- Machine Learning Pricing Model
+
+-------------------------------------------------------------
+
+## ⚙️ Installation & Setup
+
+1️⃣ Clone Repository
+
+git clone https://github.com/NIKHIL-14238/VoltVex.git
+cd VoltVex
+
+2️⃣ Install Dependencies
+
 npm install
-```
 
-### **4️⃣ Setup TypeScript & Aptos SDK**
-```bash
-npm init -y
-npm install -D typescript @types/node ts-node
-npx tsc --init
-npm install @aptos-labs/ts-sdk
-```
+3️⃣ Setup Environment Variables
 
----
+Create .env file in root folder:
 
-## 📜 Move Smart Contracts
+VITE_CONTRACT_ADDRESS=YOUR_SMART_CONTRACT_ADDRESS
+VITE_NETWORK_ID=11155111
 
-### **Deploy Move Contracts**
-```bash
-aptos move compile --named-addresses named_account=default
-aptos move publish --named-addresses named_account=default
-```
+4️⃣ Run Frontend
 
-### **Smart Contracts Included**
-- `game.move` → Core game mechanics (missions, quests, achievements)
-- `player_progress.move` → Player XP, achievements tracking
-- `marketplace.move` → In-game APT Coin transactions
-- `nft_rewards.move` → NFT-based rewards for achievements
+npm run dev
 
----
+5️⃣ Run ML Backend
 
-## 🔌 Blockchain Integration
+cd backend
+python ml_api.py
 
-### **1️⃣ Generate a New Aptos Account**
-```bash
-aptos init
-```
+-------------------------------------------------------------
 
-### **2️⃣ Check Account Balance**
-```bash
-aptos account balance --account default
-```
+## 👨‍💻 Developer
+Nikhil – Web3 Full Stack Developer  
 
-### **3️⃣ Run the TypeScript Scripts**
-```bash
-npx ts-node src/index.ts
-```
-
----
-
-## 👨‍💻 Contributors
-- **[Your Name]** - Aptos Blockchain Development
-
----
+-------------------------------------------------------------
 
 ## 📜 License
-This project is licensed under the MIT License. See `LICENSE` for details.
+MIT License
 
----
 
-## 📢 Support & Community
-Join the **Aptos Developer Community**: [Discord](https://discord.gg/aptos)
+========================= COMMANDS TO UPDATE GITHUB =========================
 
+# Remove nested git repo
+git rm -f --cached product-filter-app
+
+# Add updated README and files
+git add .
+
+# Commit changes
+git commit -m "Updated VoltVex README and fixed nested repo"
+
+# Push to GitHub
+git push
