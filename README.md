@@ -1,4 +1,4 @@
-========================= README CONTENT =========================
+
 
 # ⚡ VoltVex – Decentralized Energy Trading Platform  
 
