@@ -11,8 +11,22 @@
 VoltVex is a Web3 decentralized energy trading platform that enables producers and consumers to trade electricity securely using blockchain technology.
 Live Link - https://voltvex.vercel.app/
 
--------------------------------------------------------------
 
+-------------------------------------------------------------
+## 📌 Achievement
+
+🥇 Top 10 at Supernova Hackathon (4,600+ registrations)
+
+🚀 Advanced from Top 75 → Top 10
+
+⚡ Built VoltVex, a P2P energy trading platform
+
+📊 Added ML-based price forecasting
+
+💻 Built with React + TailwindCSS
+
+
+-------------------------------------------------------------
 ## 📌 Overview
 
 VoltVex allows users to:
